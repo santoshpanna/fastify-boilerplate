@@ -1,7 +1,7 @@
 {
-  "name": "fastify-backend-template",
+  "name": "fastify-boilerplate",
   "version": "4.1.0",
-  "description": "Fastify Backend Template",
+  "description": "Fastify Backend Boilerplate",
   "private": true,
   "type": "module",
   "scripts": {
