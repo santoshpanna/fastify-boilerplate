@@ -1,0 +1,38 @@
+{
+  "name": "fastify-backend-template",
+  "version": "4.1.0",
+  "description": "Fastify Backend Template",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "watch": "tsc --watch --preserveWatchOutput --pretty",
+    "dev": "cross-env NODE_ENV=development tsx watch ./src/index.ts",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "build": "rimraf dist && tsc && tsc-alias",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@fastify/autoload": "5.8.0",
+    "@fastify/cors": "^8.5.0",
+    "@fastify/helmet": "^11.1.1",
+    "envalid": "^8.0.0",
+    "fastify": "4.25.2"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.6",
+    "@typescript-eslint/eslint-plugin": "6.17.0",
+    "@typescript-eslint/parser": "6.17.0",
+    "cross-env": "7.0.3",
+    "eslint": "8.56.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-import-resolver-typescript": "3.6.1",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-prettier": "5.1.2",
+    "fastify-tsconfig": "2.0.0",
+    "prettier": "3.1.1",
+    "rimraf": "5.0.5",
+    "tsc-alias": "1.8.8",
+    "tsx": "4.7.0",
+    "typescript": "5.3.3"
+  }
+}
