@@ -1,6 +1,6 @@
 {
   "name": "fastify-boilerplate",
-  "version": "4.1.0",
+  "version": "1.0.0",
   "description": "Fastify Backend Boilerplate",
   "private": true,
   "type": "module",
